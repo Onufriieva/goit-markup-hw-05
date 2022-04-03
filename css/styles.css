@@ -1057,8 +1057,14 @@ color: var(--title-font);
        
     width: 528px;
     height: 581px;
+    border: 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
 
     background-color: var(--background-header);  
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
   .btn-close {
