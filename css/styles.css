@@ -1019,6 +1019,7 @@ color: var(--title-font);
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0; 
 }
 
@@ -1080,6 +1081,7 @@ color: var(--title-font);
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    border: none;
     cursor: pointer;
 }
 
